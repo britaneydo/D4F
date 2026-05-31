@@ -74,7 +74,7 @@ The tree is stored in Supabase and updates based on total shared points.
 
 | Sprout | Baby Tree | Small Tree | Medium Tree | Large Magical Tree |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="cozy-study-room/public/assets/Luminous_tree5.png" width="30"/> | <img src="cozy-study-room/public/assets/Luminous_tree4.png" width="45"/> | <img src="cozy-study-room/public/assets/Luminous_tree3.png" width="60"/> | <img src="cozy-study-room/public/assets/Luminous_tree2.png" width="85"/> | <img src="cozy-study-room/public/assets/Luminous_tree1.png" width="90"/> |
+| <img src="cozy-study-room/public/assets/Luminous_tree5.png" width="30"/> | <img src="cozy-study-room/public/assets/Luminous_tree4.png" width="45"/> | <img src="cozy-study-room/public/assets/Luminous_tree3.png" width="50"/> | <img src="cozy-study-room/public/assets/Luminous_tree2.png" width="85"/> | <img src="cozy-study-room/public/assets/Luminous_tree1.png" width="90"/> |
 | 0 - 10 pts | 11 - 50 pts | 51 - 150 pts | 151 - 500 pts | 501+ pts |
 
 </div>
