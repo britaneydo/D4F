@@ -10,6 +10,10 @@ LoreLeaf is a cozy fantasy study room web app built for students and made by stu
 
 Instead of making productivity feel plain or stressful, LoreLeaf turns studying into a calm, fantasy-inspired experience where users can enter a shared library room, start a focus timer, and contribute to a living tree that grows over time.
 
+<div align="center">
+  <img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/12b2c356-94ed-434e-b002-7b211405bc7e" />
+</div>
+
 ---
 
 ## Project Theme
