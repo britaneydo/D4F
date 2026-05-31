@@ -12,7 +12,7 @@ export function useUser() {
     const fetchDisplayName = useCallback(async(userId: string) => {
     const { data, error } = await supabase
       .from("profiles")
-      .select("display_name")
+      .select("username")
       .eq("id", userId)
       .single();
 
@@ -21,7 +21,7 @@ export function useUser() {
       setDisplayName(null);
       setLoading(false);
     }
-    setDisplayName(data?.display_name ?? null);
+    setDisplayName(data?.username ?? null);
     setLoading(false);
   }, []);
 
