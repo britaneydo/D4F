@@ -1,6 +1,6 @@
 # LoreLeaf
 
-LoreLeaf is a cozy fantasy study room web app built for the hackathon. The goal of the project is to help users stay focused, complete study sessions, and feel rewarded through a shared magical tree that grows as users earn focus points through doing their tasks.
+LoreLeaf is a cozy fantasy study room web app built for students and made by students. The goal of the project is to help users stay focused, complete study sessions, and feel rewarded through a shared magical tree that grows as users earn focus points through doing their tasks.
 
 Instead of making productivity feel plain or stressful, LoreLeaf turns studying into a calm, fantasy-inspired experience where users can enter a shared library room, start a focus timer, and contribute to a living tree that grows over time.
 
@@ -34,7 +34,7 @@ This gives users a small but meaningful reason to keep going.
 
 ## Core Features
 
-### Focus Timer
+### Pomodoro Timer
 
 Users can start a study timer with adjustable session lengths.
 
@@ -68,22 +68,16 @@ The room contains a shared magical tree that grows as users earn focus points.
 
 The tree is stored in Supabase and updates based on total shared points.
 
-Tree stages:
+### Tree Stages
 
-| Tree Points | Tree Stage |
-| 0 - 10 | Sprout |
-| 11 - 50 | Baby Tree |
-| 51 - 150 | Small Tree |
-| 151 - 500 | Medium Tree |
-| 501+ | Large Magical Tree |
+<div align="center">
 
-The tree uses different sprites depending on its current stage:
+| Sprout | Baby Tree | Small Tree | Medium Tree | Large Magical Tree |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="cozy-study-room/public/assets/Luminous_tree5.png" width="60"/> | <img src="cozy-study-room/public/assets/Luminous_tree4.png" width="60"/> | <img src="cozy-study-room/public/assets/Luminous_tree3.png" width="60"/> | <img src="cozy-study-room/public/assets/Luminous_tree2.png" width="60"/> | <img src="cozy-study-room/public/assets/Luminous_tree1.png" width="60"/> |
+| 0 - 10 pts | 11 - 50 pts | 51 - 150 pts | 151 - 500 pts | 501+ pts |
 
-![Luminous_tree1.png](cozy-study-room/public/assets/Luminous_tree5.png)
-![Luminous_tree2.png](cozy-study-room/public/assets/Luminous_tree4.png)
-![Luminous_tree3.png](cozy-study-room/public/assets/Luminous_tree3.png)
-![Luminous_tree4.png](cozy-study-room/public/assets/Luminous_tree2.png)
-![Luminous_tree5.png](cozy-study-room/public/assets/Luminous_tree1.png)
+</div>
 
 As the shared point total increases and reaches the next Tree Stage, the tree visually changes in the study room.
 
